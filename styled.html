@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Web Development</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* General Body Styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* Form Container Styling */
+    form {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+
+    /* Table Styling */
+    table {
+      width: 100%;
+    }
+
+    td {
+      padding: 8px;
+    }
+
+    /* Input Field Styling */
+    input[type="text"], input[type="email"], input[type="password"], input[type="phone no"], select {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0 10px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    /* Radio Button Styling */
+    input[type="radio"] {
+      margin: 5px 5px 5px 0;
+    }
+
+    /* Submit Button Styling */
+    input[type="submit"] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    /* Heading Styling */
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>To Get My Page</h1>
+  <form>
+    <table>
+      <tr>
+        <td>Your Name:</td>
+      </tr>
+      <tr>
+        <td><input type="text" placeholder="Your Name"></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+      </tr>
+      <tr>
+        <td><input type="email" placeholder="example@domain.com"></td>
+      </tr>
+      <tr>
+        <td>Password:</td>
+      </tr>
+      <tr>
+        <td><input type="password" placeholder="password"></td>
+      </tr>
+      <tr>
+        <td>Gender:</td>
+      </tr>
+      <tr>
+        <td>
+          <input type="radio" name="Gender">Male
+          <input type="radio" name="Gender">Female
+        </td>
+      </tr>
+      <tr>
+        <td>Phone no:</td>
+      </tr>
+      <tr>
+        <td>
+          <select>
+            <option>+152</option>
+            <option>+251</option>
+            <option>+153</option>
+            <option>+225</option>
+            <option>+255</option>
+          </select>
+          <input type="text" placeholder="98753***">
+        </td>
+      </tr>
+      <tr>
+        <td><input type="submit" value="Submit"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
